@@ -18,7 +18,7 @@ inputs:
     description: 'The path to the zip file of your bundled up addon'
     required: true
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'wowinterface-upload.js'
 branding:
   icon: chevron-right
